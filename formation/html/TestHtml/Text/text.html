@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtmll/DTD/xhtmll-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+<title>Xhtml Index</title>
+<meta http-equiv="Content-Type" content="text/html;
+charset=UTF-8"/></head>
+</head>
+<body>
+<!-- Les titres -->
+<h1>Liens</h1>
+<h2>Liens</h2>
+<h3>Liens</h3>
+<h3>Liens</h3>
+<h4>Liens</h4>
+<!-- <p> ... </p> Les paragraphes de texte -->
+<p>Un texte gagne en lisibilité lorsqu'il est divisé en différents paragraphes</p>
+<p>Pour définir un paragraphe, on utile la balise <!-- <p> ... </p> --> </p>
+<p>chaque paragraphe est précédé et suivi d'un saut de ligne</p>
+<p>------------------------------------------------------------------------------</p>
+<!-- Le passage à la ligne ou <br /> -->
+<p>Un texte gagne en lisibilité<br />lorsqu'il est divisé<br />en différents paragraphes</p>
+<p>------------------------------------------------------------------------------</p>
+<!-- <hx> ... </hx> balises utilisées pour les titres -->
+<hx>Toto</hx>
+<p>------------------------------------------------------------------------------</p>
+<!-- <hr /> balise qui introduit une ligne horizontale -->
+<p>ligne horizontale</p>
+<hr />
+<p>------------------------------------------------------------------------------</p>
+<!-- <pre> ... </pre> balise de texte préformaté, respecte la disposition visible sur l'éditeur de texte -->
+<pre>Le Xhtml oblige que tout document Xhtml commence par un élément de type bloc (block). Les validateurs
+ne manqueront pas de vous rappeler tout manquement à cette règle.
+Ainsi, toute la page sera structurée ou divisée en éléments bloc qui distingueront des parties entières de
+texte. Nous avons déjà rencontré deux éléments blocs dans notre étude: les titres et les paragraphes.
+Les éléments de bloc créent une nouvelle ligne dans le flux de texte. Suivant le type de l'élément, le
+navigateur peut alors insérer automatiquement un espace plus important pour séparer du contenu précédent.
+Ainsi les navigateurs créent-ils, par exemple, pour la balise P, un espace visible pour que le changement
+de paragraphe soit distingué du simple passage à la ligne.
+Les éléments bloc se placent toujours, par défaut, l'un en dessous de l'autre.</pre>
+
+<p>------------------------------------------------------------------------------</p>
+<!-- <dl> ... </dl> 1 <01> ... </ol> 1 <ul> ... </ul> balises utilisées pour les listes -->
+<dl>
+<li>01</li>
+<li>02</li>
+<li>03</li>
+</dl>
+<p>------------------------------------------------------------------------------</p>
+<ol>
+<li>01</li>
+<li>02</li>
+<li>03</li>
+</ol>
+<p>------------------------------------------------------------------------------</p>
+<ul>
+<li>01</li>
+<li>02</li>
+<li>03</li>
+</ul>
+<p>------------------------------------------------------------------------------</p>
+<h1>Dire bonjour à toto dans le formulaire</h1>
+<form action="post"> Send to Toto </form>
+<pre>
+<textarea rows="3" cols"35"></textarea>
+<input value="Send" type="submit"><input value="effacer" type="reset"> 
+</pre>
+<p>------------------------------------------------------------------------------</p>
+<!-- <div> ... </dvi> balise de division (div pour division)
+sans passer par une balise de paragraphe.
+Cette balise est particulièrement utile pour la déclaration de feuilles
+de style. -->
+<div>A venir une feuille de style CSS</div>
+<p>------------------------------------------------------------------------------</p>
+<!-- <form> ... </form> Les éléments en ligne ou (inline). -->
+<p>Le <i><b>World wide web  consortium</b></i>, en abrége <b>W3C</b>, et un consortium fondé en 1994.</p>
+<p>------------------------------------------------------------------------------</p>
+<!-- <sup> ... </sup> Exposant et indice exemple Math. -->
+<p>Exposant et indice :</p>
+<p>Toto au <sup>2</sup> = Toto X Toto</p>
+<p>------------------------------------------------------------------------------</p>
+<!-- <tt> ... </tt> affiche une police à espacement fixe.
+Utilisée pour mettre en évidence du code par rapport au reste du texte. -->
+<p>La boucle en JavaScript : <tt>(i=0 i&lt;5 ,i++)</tt></p>
+<!-- ou...  -->
+<p>La boucle en JavaScript :</p>
+<tt>(i=0 i<5 ,i++)</tt>
+<p>------------------------------------------------------------------------------</p>
+<!-- <big> ... </big> Taille relative. -->
+<p>Taille relative</p>
+<p> Ou encore : <big>Taille relative</big> du consortium <big>W3C</big>.</p>
+<p>------------------------------------------------------------------------------</p>
+<!-- <hr /> Ligne horizontale
+Pour séparer des éléments, le Xhtml met à disposition la ligne horizontale.
+En Xhtml strict, cette balise n'admet aucun attribut. -->
+<p><b>A lire :</b></p>
+<p>Article Novembre</p>
+<hr />
+<p>Article Aout</p>
+<hr />
+<p>Article Sept</p>
+<p><b>Fin des Articles.</b></p>
+<p>------------------------------------------------------------------------------</p>
+<!-- Les balises sémantiques
+<abbr> ... </abbr> / <acronym> ... </acronym> / <address> ... </address> / etc...
+Ces "signifiés" sont d'une grande utilité pour les lecteurs à synthèse vocale et autres plages brailles pour les
+personnes mal ou non-voyantes.
+Elles présentent également une source d'informations appréciable pour les moteurs de recherches.. -->
+<p><b>Les balises sémantiques :</b></p>
+<p>Et apparition d'une info-bulle sur <b>ONU</b> dans l'article de Novembre.</p>
+<p>L' article de Novembre sur l'<acronym lang="en" title="Organisation des Nations Unies"><b>ONU</b></acronym></p>
+<hr />
+<p>L' article d'Aout sur <address>l'adresse des </adress><abbr>VIP</abr></p>
+<hr />
+<p>Article Sept</p>
+<p><b>Fin des Articles.</b></p>
+<p>------------------------------------------------------------------------------</p>
+<!-- Les autres balises de texte, la balise <pre> ... </pre>
+ou encore La balise <blockquote>
+La balise <dei> ... </del>
+La balise <ins> ... </ins> -->
+<h2>Toto a dit :</h2>
+<blockquote>
+<p>
+0 + 0 = la tête à Toto
+</p>
+</blockquote>
+
+<hr/>
+
+<pre>
+Un tableau à l'ancienne :
+<br/>
+1		2		3		4		5
+<br/>
+6		7		8		9		10
+
+11		12		13		<ins>14</ins>		<del>15</del>
+</pre>
+<p>------------------------------------------------------------------------------</p>
+
+
+</body>
+</html>

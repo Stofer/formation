@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtmll/DTD/xhtmll-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+<title>Form</title>
+<meta http-equiv="Content-Type" content="text/html;
+charset=UTF-8"/></head>
+</head>
+<body>
+<p><b>Formulaire de contact</b></p>
+<!-- Formulaire -->
+
+<div id="formutilisateur">
+	<form action="post">
+		<p>Mon : <input type="text" name="nom" value="texte" rows="1" cols="30" /></p>
+		<p>Message : <textarea rows="3" cols="30">Ne pas taper de text ici</textarea></p>	
+		<p><textarea readonly="readonly" rows="1" cols="30" >information en lecture seule</textarea></p>
+		<p>Votre ville : 
+			<select>
+				<option>Paris</option>
+				<option>Londre</option>
+				<option>Usa</option>
+				<option selected="selected">Lyon</option>
+			</select>
+		</p>
+		
+		<p>Homme / Femme / Autre :<br/>
+			<select size="4" multiple="multiple">
+				<option>Homme</option>
+				<option>Femme</option>
+				<option>Bébe</option>
+				<option>Alien</option>
+			</select>
+		</p>
+		
+		<p>Mars la nuit :<br/>
+			<select size="7" multiple="multiple">
+				<optgroup label="Mars">
+					<option>Glace</option>
+					<option>Neige</option>
+				</optgroup>
+				<optgroup label="Nuit">
+					<option>Club</option>
+					<option>Bar</option>
+					<option>Pub à bière</option>
+				</optgroup>
+			</select>
+		</p>
+		<p>Lune ou Soleil pour un voyage? <br />
+			<input type="radio" name="Voyage" checked="checked" /> Lune<br />
+			<input type="radio" name="Voyage" disabled="disabled"/> Soleil<br />
+		</p>
+		</p>
+		<p>Pas de Soleil il rest Mars ou la Lune pour un voyage ! <br />
+			<input type="checkbox" name="Voyage1" value="1" /> La Lune<br />
+			<input type="checkbox" name="Voyage2" value="2" disabled="disabled"/> Le Soleil<br />
+			<input type="checkbox" name="Voyage3" value="3" /> Mars<br />
+		</p>
+		<p>Votre selection : <br />
+			<input type="submit" name="Voyage1" value="Vous allez valider un vol sans retour" /> Pour 
+		</p>
+		<p>Ou alors envoyer un : <br />
+			<button type="submit">BéééH <img src="moutonpicto.jpg" width="50" height="50" /></button>
+		</p>
+		<p>Sinon <br />
+			<input type="reset" />
+		</p>
+		<p>
+		<input type="file"/>
+		<br />
+		</p>
+		<fieldset>
+		<legende>Valider :</legende>
+			<p>
+				Password : <input type="password"/>
+			</p>
+
+			<p>Cocher :<br />
+				<label for="cash1">Visa</label>
+				<input type="radio" name="cash" id="cash1" /><br />
+				<label for="cash2">American Express</label>
+				<input type="radio" name="cash" id="cash2" /><br />
+				<label for="cash3">Mastercard</label>
+				<input type="radio" name="cash" id="cash3" /><br />
+				<label for="cash4">Paypal</label>
+				<input type="radio" name="cash" id="cash4" /><br />
+			</p>
+		</fieldset>
+	</form>
+</div>
+
+<a href="../text/text.html">lien vers page text.html de lien.html</a><br />
+
+</body>
+</html>
