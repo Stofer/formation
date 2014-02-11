@@ -1,0 +1,157 @@
+
+/*-*/
+body
+{
+	margin-top: 60px;
+	background-image: url(couple_hdr.gif);
+	background-repeat: no-repeat;
+	/*background-position: 80% 80%;*/
+
+}
+
+.stabilo /*<span class="stabilo"></span> defin: une zone à l'intérieur du code*/
+{
+	background-color: #FFFF00;
+	border-radius: 5px;
+	color: red;
+}
+
+#aqua
+{
+	background-color: aqua;
+	opacity: 0.5;
+	/*text-align: center;*/
+	font-size: 2em;
+	font-style: italic;
+	padding: 20px 20px 20px 20px;
+
+
+	border-radius: 20px;
+}
+
+h1
+{
+	background-color: lime;
+	padding-left: 30px;
+	/*text-align: center;*/
+	
+}
+
+#top
+{
+	width: auto;
+	border: 2px solid red;
+	padding: 20px 20px 20px 20px;
+
+	background-color: aqua;
+
+	text-align: justify;
+
+	margin: 0px 0px 0px 0px;
+}
+
+#gauche
+{
+	width: 60%;
+	/*height: 100%;*/
+	border: 2px solid black;
+	padding: 20px 20px 20px 20px;
+
+	background-color: lime;
+
+	text-align: justify;
+/* ??? */
+display: inline-block;
+
+}
+
+#droite
+{
+	 /*float: right;
+	position: relative; top: 10px;
+	*/
+/* ??? */
+display: inline-block;
+/*float: right;*/
+
+	width: 30%;
+	border: 2px solid #8B008B;
+	padding: 20px;
+	background-color: #FF7F50;
+
+	text-align: justify;
+
+}
+
+.footer
+{	
+	width: auto;
+	border: 2px solid #8B008B;
+	padding: 10px;
+	background-color: #D8BFD8;
+
+	text-align: justify;
+	/*
+	position: absolute;
+	float-right: 20%;*/
+
+}
+
+.fin
+{	
+	width: auto;
+	border: 2px solid red;
+	text-align: center;
+	background-color: #EE82EE;
+
+	/*
+	text-align: justify;
+	*/
+
+}
+
+
+a:link
+{
+	text-decoration: none;
+	color: #40E0D0;
+}
+a:visited
+{
+	text-decoration: line-through;
+	color: #6A5ACD;
+}
+a:hover
+{
+	text-decoration: none;
+	color: #6A5ACD;
+	font-weight: bold;
+}
+a:active
+{
+	text-decoration: underline overline;
+}
+
+#round
+{	
+	float: right;
+	/*
+	position: absolute;
+	left: 50px; top: 20px; 
+	*/
+	height: 100px;
+	width: 100px;
+	margin: 20px 20px 20px 20px;
+	border: 1px solid black;
+	border-radius: 100px;
+}
+
+/*
+.lettrine:first-letter
+{
+float: left;
+margin-right: 5px;
+font-size: 5em;
+vertical-align: top;
+}
+*/

@@ -1,0 +1,154 @@
+
+/*-*/
+body{
+	/*background-repeat: no-repeat;
+	background-position: 80% 80%;*/
+	margin:0;
+	background-color: #C0C0C0;
+}
+
+.stabilo{ /*<span class="stabilo"></span> defin: une zone à l'intérieur du code*/
+	background-color: #FFFF00;
+	border-radius: 5px;
+	color: red;
+}
+
+ul{
+	list-style:none
+}
+
+li{
+
+	position: relative;
+	z-index: 2;
+	display: inline-block;
+	border: 1px solid black;
+
+	padding-top: 5px;
+	float: right;
+	text-align: center;
+	height: 25px;
+	width: 140px;
+	
+
+	/*text-align: justify*/
+	background-color: white;
+}
+
+.menu a:link{
+
+	display: block;
+
+	text-decoration: none;
+	color: black;
+	text-transform:uppercase;
+	font:bold 15px/1.2em "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.menu a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+.menu li ul {
+ display:none;
+ margin-top: 5px; 
+ }
+
+.menu li:hover ul {
+ display:block;
+ }
+
+.menu a:hover{
+	text-decoration: none;
+	color: #6A5ACD;
+	font-weight: bold;
+	text-decoration: overline;
+}
+.menu a:active{
+	text-decoration: none;
+	color: red;
+	text-decoration: overline; height: 3px; /*underline;*/
+}
+
+/*#aqua{
+	background-color: aqua;
+	opacity: 0.5;
+	text-align: center;
+	font-size: 2em;
+	font-style: italic;
+	padding: 20px 20px 20px 20px;
+	border-radius: 20px;
+}
+*/
+
+#top{
+
+	width: auto;
+	height: 40px;
+	border: 2px solid red;
+	padding: 0px 20px 20px 20px;
+
+	background-color: aqua;
+
+	text-align: justify;
+
+	margin: 0px 0px 0px 0px;
+}
+
+#conteneur{
+	width:850px;
+	margin: 0px auto 20px auto;
+	padding: 5px;
+	height:420px;
+}
+
+#gauche{
+	float:left;
+	width: 600px;
+	height: 420px;
+	border: 2px solid black;
+	padding: 20px 20px 20px 20px;
+
+	background-color: lime;
+
+	text-align: justify;
+	/* ???
+	display: inline-block; */
+}
+
+#droite{
+		/* ???
+	display: inline-block; */
+	float: right;
+	width: 150px;
+	height: 420px;
+	border: 2px solid #8B008B;
+	padding: 20px;
+	background-color: #FF7F50;
+
+	text-align: justify;
+}
+
+.footer{	
+
+	width: auto;
+	border: 2px solid #8B008B;
+	padding: 10px;
+	background-color: #D8BFD8;
+
+	text-align: justify;
+	margin-top: 20px;
+	/*
+	position: absolute;
+	float-right: 20%;*/
+}
+
+.fin{	
+	width: auto;
+	border: 2px solid red;
+	text-align: center;
+	background-color: #EE82EE;
+	/*
+	text-align: justify;
+	*/
+}
